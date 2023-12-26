@@ -1,0 +1,40 @@
+.navbar {
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.snap {
+    /* padding: 5px; */
+    margin-left: 3%;
+    color: #DE9654;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.sync {
+    /* padding: 5px; */
+    margin-left: 2px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+@media (max-width:400px) {
+    .snap {
+        /* padding: 5px; */
+        margin-left: 6%;
+    }
+}
