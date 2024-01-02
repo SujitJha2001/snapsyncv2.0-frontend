@@ -38,8 +38,8 @@ const Sender = () => {
                     const randomIndex = Math.floor(Math.random() * characters.length);
                     uniqueString += characters.charAt(randomIndex);
                 }
-                // setRecieverLink(`https://snapsync.netlify.app/recieve/${uniqueString}`)
-                setRecieverLink(`http://localhost:3000/recieve/${uniqueString}`)
+                setRecieverLink(`https://snapsync.netlify.app/recieve/${uniqueString}`)
+                // setRecieverLink(`http://localhost:3000/recieve/${uniqueString}`)
                 setQrModal(true);
                 /******************************************generateUniqueId*****************************/
                 setUploadingFile(2);

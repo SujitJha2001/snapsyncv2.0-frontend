@@ -20,9 +20,9 @@ export const GlobalProvider = ({ children }) => {
     useEffect(() => {
         if (!(Object.keys(socket).length > 0)) {
             console.log("Request to Connect")
-            let socket = io("http://localhost:4003");
+            // let socket = io("http://localhost:4003");
             // let socket = io("https://snapsyncv2-backend.azurewebsites.net");
-            // let socket = io("https://snapsync-backendv2-0.onrender.com");
+            let socket = io("https://snapsync-backendv2-0.onrender.com");
             
             setSocket(socket)
         } else {
